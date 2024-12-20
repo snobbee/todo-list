@@ -1,0 +1,37 @@
+{
+    "name": "todo-cli",
+    "version": "1.0.0",
+    "description": "A CLI based TODO list app",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest --coverage",
+        "test:watch": "jest --watch"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "@types/jest": "^29.5.12",
+        "mock-fs": "^5.2.0",
+        "strip-ansi": "^6.0.1"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/*.js",
+            "!src/**/*.test.js"
+        ],
+        "coverageThreshold": {
+            "global": {
+                "branches": 80,
+                "functions": 80,
+                "lines": 80,
+                "statements": 80
+            }
+        },
+        "setupFilesAfterEnv": [
+            "<rootDir>/tests/helpers/setup.js"
+        ]
+    }
+}
