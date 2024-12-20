@@ -73,3 +73,6 @@ dist/
 build/
 tmp/
 temp/ 
+
+# Data
+todos.json
