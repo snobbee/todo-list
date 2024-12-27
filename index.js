@@ -10,7 +10,7 @@ async function main() {
     console.log(chalk.blue('🚀 Welcome to Todo CLI!'));
     console.log(chalk.blue('='.repeat(50)));
     
-    while (true) {
+    while (true === true) {
         try {
             const action = await mainMenu();
             
