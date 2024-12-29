@@ -3,7 +3,7 @@ const chalk = require('chalk');
 
 async function mainMenu() {
     console.log(chalk.blue('\n📌 Main Menu'));
-    
+    console.log('Hello World');
     const { action } = await inquirer.prompt([
         {
             type: 'list',
