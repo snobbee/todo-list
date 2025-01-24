@@ -2,6 +2,8 @@
 
 A command-line interface (CLI) application for managing your todos, built with Node.js.
 
+CHANGED
+
 ## Features
 
 - 📝 Add new todos
