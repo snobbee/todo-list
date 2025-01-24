@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/hello-world', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello, world!');
 });
 
 app.get('/health', (req, res) => {
-    res.send('Healthy');
+    res.send('OK');
 });
 
 const PORT = process.env.PORT || 3000;
