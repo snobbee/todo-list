@@ -1,7 +1,4 @@
-function loadList() {
+export const loadList = () => {
+    console.log('Loading the list');
     // Logic to load the list
-    console.log('Loading list...');
-    // Ensure the list loads correctly
-}
-
-loadList();
+};
