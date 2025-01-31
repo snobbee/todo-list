@@ -1,5 +1,5 @@
-# Todo List
+# Project Title
 
-## New Feature: Enhanced User Experience
+## New Payment Integration
 
-This update introduces new features to improve user experience based on user feedback.
+This project now supports Stripe payment integration. To use this feature, ensure you have the Stripe SDK installed and configured.
