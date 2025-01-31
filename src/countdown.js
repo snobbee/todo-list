@@ -1,11 +1,8 @@
 function countdown(seconds) {
-    let count = seconds;
-    while (count >= 0) {
-        if (count % 2 === 0) {
-            console.log(count);
-        }
-        count--;
+    for (let i = seconds; i >= 0; i--) {
+        if (i % 2 !== 0) continue; // Skip odd numbers
+        console.log(i);
     }
 }
 
-countdown(10);
+countdown(inputSeconds);
